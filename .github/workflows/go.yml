@@ -23,7 +23,7 @@ jobs:
         
     - name : Install Dependencies
       run : |
-          go install github.com/Jeffail/gabs
+          go install github.com/Jeffail/gabs@latest
           
     - name: Build
       run: go build -v ./...
