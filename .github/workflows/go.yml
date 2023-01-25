@@ -23,7 +23,6 @@ jobs:
         
     - name : Install Dependencies
       run : |
-          go install .
           go install github.com/Jeffail/gabs
           
     - name: Build
